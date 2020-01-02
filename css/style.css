@@ -1,0 +1,217 @@
+/* CSS Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{box-sizing: border-box;}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0 auto;
+    background: #4a4a4b;
+}
+
+ /* Header */
+ header{
+    padding: 8vh 0 0 0;
+    text-align: center;
+    color : white;
+}
+
+#title {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#description {
+    padding: 2vh 0 10vh 0;
+    font-size: 1.5rem;
+    font-family: Calibri;
+    font-weight: 200;
+}
+
+/* Form */
+
+.main {
+    margin: 0 auto;
+    padding: 2.5rem 0.635rem;
+    background-color: gray;
+    border-radius:5px;
+    font-size: 1.125rem;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25 rem;
+}
+
+.form-group label, .form-group p{
+    color:white;
+    font-family: Arial;
+    padding: 0 0 0 0;
+}
+
+.form-group p {
+    padding: 0 0 3vh 0;
+}
+
+.form-group .nama{
+    padding: 0 0 5vh 0;
+}
+
+/* Nama */
+.nama {
+    padding: 0 0 4vh 0;
+}
+#name {
+    display: block;
+    margin: 1vh 0 1vh 0;
+    padding: 2vh;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+}
+
+/* Surat Elektronik */
+
+#email {
+    display: block;
+    margin: 1vh 0 1vh 0;
+    padding: 2vh;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+}
+
+/* Umur */
+
+#age {
+    display: block;
+    margin: 1vh 0 1vh 0;
+    padding: 2vh;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+}
+
+/* Peran */
+
+#dropdown {
+    width: 100%;
+    background: white;
+    padding:2vh;
+    font-size: 1.125rem;
+}
+
+
+
+/* Boolean */
+.radiobutt {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Most Like */
+#most-like {
+    width: 100%;
+    background: white;
+    padding:2vh;
+    font-size: 1.125rem;
+}
+
+.checkboks {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Komentar */
+
+#comments {
+    width: 100%;
+    height: 120px;
+}
+
+/* Submit */
+
+#submit {
+    width: 100%;
+    background: green;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+@media (min-width:528px) {
+   .main {
+       max-width: 540px;
+       padding: 2.5rem;
+   } 
+
+}
+
+@media (min-width:768px) {
+    .main {
+        max-width: 720px;
+        padding: 2.5rem;
+    } 
+ 
+ }
+
